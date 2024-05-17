@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .table-intro {
+      @apply text-sm text-gray-600;
+    }
+  }

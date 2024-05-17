@@ -1,0 +1,33 @@
+{
+    "logging": {
+        "level": "info",                      
+        "log_file": "./log/natter.log"  
+    },
+    "status_report": {
+        "status_file":"",
+        "hook": "node ./out.js {protocol} {inner_ip} {inner_port} {outer_ip} {outer_port}"
+    },
+    "open_port": {
+        "tcp": [
+        ],
+        "udp": [
+        ]
+    },
+    "forward_port": {
+        "tcp": [
+        ],
+        "udp": [
+        ]
+    },
+    "stun_server": {
+        "tcp": [
+            "stun.stunprotocol.org",
+            "stun.voip.blackberry.com"
+        ],
+        "udp": [
+            "stun.miwifi.com",
+            "stun.qq.com"
+        ]
+    },
+    "keep_alive": "www.qq.com"
+}

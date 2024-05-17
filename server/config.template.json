@@ -1,0 +1,11 @@
+[
+    {
+        "type": "tcp",
+        "name": "Panel",
+        "intro": "管理面板",
+        "inner_ip": "127.0.0.1",
+        "inner_port": 44344,
+        "public": true,
+        "direct": false
+    }
+]
